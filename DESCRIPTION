@@ -1,0 +1,24 @@
+Package: peRseus
+Type: Package
+Title: Automate repetitive steps in Perseus
+Version: 0.1.0
+Author: Maria Dermit <maria.dermit@qmul.ac.uk>
+Maintainer: Maria Dermit <maria.dermit@qmul.ac.uk>
+Description: Functions for parsing Maxquant raw data.
+            Given a file originated from a TMT or a LFQ experiments, 
+            this package performs the initial data cleaning steps.
+License: LGPL
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    magrittr,
+    tidyverse,
+    assertive
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 2.1.0)
+VignetteBuilder: knitr
+RoxygenNote: 7.0.2
+Depends: R (>= 2.10)
